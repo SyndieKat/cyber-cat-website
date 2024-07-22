@@ -11,7 +11,7 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
+    --background-start-rgb: 32, 33, 36;
     --background-end-rgb: 0, 0, 0;
   }
 }
@@ -30,4 +30,35 @@ body {
   .text-balance {
     text-wrap: balance;
   }
+}
+
+h1 {
+  font-size: 50px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+div.sectionBox {
+  border: 1px solid red;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 10px;
+  height: auto;
+}
+
+div.mainContainer{
+  width: 60%;
+  margin: auto;
+}
+
+div.bodyContainer{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#mainBox {
+  width: 70%;
 }

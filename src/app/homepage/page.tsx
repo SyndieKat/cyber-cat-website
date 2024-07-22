@@ -36,7 +36,7 @@ export default function MainPage() {
           
             <div className="sectionBox">
               <h2>Welcome! </h2>
-              <p> You can call me Kat (unique name, I know), and this is my personal website, which I can use as a creative outlet to showcase stuffs and have a presence on the internet! It is currently a <span className ="text-red-600">work in progress</span> and will probably continue to do so for years to come! </p>
+              <p> You can call me Kat, and this is my personal website, which I can use as a creative outlet to showcase stuffs and have a presence on the internet! It is currently a <span className ="text-red-600">work in progress</span> and will probably continue to do so for years to come! </p>
               <p> Why &quot;Cyber Cat&quot;? It&apos;s from the name of the organization (Cyber Cats Collective) my main OC is a part of so yeah.</p>
               <br></br>
               <h2> Quick facts about me: </h2>
