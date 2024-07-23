@@ -3,8 +3,6 @@ import React from 'react';
 const Nekoapi = async () => {
 
     //credit to max.nekoweb.org for the orignal code
-
-    const apiKey = '3416726fff88ddba075aa06d1b4b947df08f79b1189229ab655c6504b7b888e7';
     let username = 'cybercat';
 
     const request = await fetch(`https://nekoweb.org/api/site/info/${username}`);
