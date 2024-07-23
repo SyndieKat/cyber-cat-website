@@ -2,6 +2,8 @@ import type { Metadata } from "next";
 import Link from "next/link";
 //import { Inter } from "next/font/google";
 import "./globals.css";
+import Nekoapi from "./components/nekoapi";
+import Clock from "./components/clock";
 
 //const inter = Inter({ subsets: ["latin"] });
 
@@ -27,11 +29,11 @@ export default function RootLayout({
                 <ul>
                   <li><Link className = "hover:text-red-600 hover:underline" href="/">Home</Link></li>
                   <li><Link className = "hover:text-red-600 hover:underline" href="/about">About</Link></li>
-                  <li><a className = "hover:text-red-600 hover:underline" href="http://www.twitter.com/SyndieKat">Twitter (it will never be X)</a></li>
-                  <li><a className = "hover:text-red-600 hover:underline" href="http://github.com/SyndieKat">GitHub</a></li>
-                  <li><a className = "hover:text-red-600 hover:underline" href="https://next.nexusmods.com/profile/syndiekat/">Nexus</a></li>
+                  <li><Link className = "hover:text-red-600 hover:underline" href="http://www.X.com/SyndieKat">Twitter</Link></li>
+                  <li><Link className = "hover:text-red-600 hover:underline" href="http://github.com/SyndieKat">GitHub</Link></li>
+                  <li><Link className = "hover:text-red-600 hover:underline" href="https://next.nexusmods.com/profile/syndiekat/">Nexus</Link></li>
                   <li><Link className = "hover:text-red-600 hover:underline" href="/blog">Blog</Link></li>
-                  <li> Worldbuilding (Coming Soon!)</li>
+                  <li><Link className = "hover:text-red-600 hover:underline" href ="https://cybercat.atabook.org/">Guestbook</Link></li>
                 </ul> 
               </div>
 
@@ -46,8 +48,9 @@ export default function RootLayout({
               </div>
               
               <div className="sectionBox" id="sideBox">
-                <h2>Web statistic</h2>
-                <p> Coming soon!</p> 
+                <h2>Web Statistics</h2>
+                <Clock/>
+                <Nekoapi/> 
               </div> 
 
               <div className="sectionBox" id="sideBox">
